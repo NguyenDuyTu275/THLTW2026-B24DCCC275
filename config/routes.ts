@@ -1,4 +1,4 @@
-﻿export default [
+﻿﻿export default [
 	{
 		path: '/user',
 		layout: false,
@@ -43,10 +43,16 @@
 		component: './TodoList',
 	},
 	{
-		path: '/Bai1',
-		name: 'Bai1',
+		path: '/quanlisanpham',
+		name: 'quanlisanpham',
 		icon: 'OrderedListOutlined',
-		component: './Bai1/index',
+		component: './quanlisanpham/index',
+	},
+	{
+		path: '/Bai2',
+		name: 'Bai2',
+		icon: 'OrderedListOutlined',
+		component: './Bai2/index',
 	},
 
 	// DANH MUC HE THONG
