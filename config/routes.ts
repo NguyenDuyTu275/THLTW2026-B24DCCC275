@@ -1,4 +1,6 @@
-﻿﻿export default [
+﻿﻿import path from "path";
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -43,17 +45,36 @@
 		component: './TodoList',
 	},
 	{
-		path: '/quanlisanpham',
-		name: 'quanlisanpham',
-		icon: 'OrderedListOutlined',
-		component: './quanlisanpham/index',
-	},
-	{
-		path: '/Bai2',
-		name: 'Bai2',
-		icon: 'OrderedListOutlined',
-		component: './Bai2/index',
-	},
+  path: '/Bai2b',
+  name: 'Bai2b',
+  icon: 'OrderedListOutlined',
+  component: './Bai2b',
+},
+{
+  path: '/Bai2a',
+  name: 'Bai2a',
+  icon: 'OrderedListOutlined',
+  component: './Bai2a',
+},
+{
+	path : '/Bai1',
+	name : 'Bai1',
+	icon : 'OrderedListOutlined',
+	component : './Bai1',
+},
+{
+	path: '/TH1_Bai1',
+	name: 'TH1_Bai1',
+	icon: 'OrderedListOutlined',
+	component: './TH1_Bai1',
+},
+{
+	path: '/TH1_Bai2',
+	name: 'TH1_Bai2',
+	icon: 'OrderedListOutlined',
+	component: './TH1_Bai2',
+}
+,
 
 	// DANH MUC HE THONG
 	// {
