@@ -75,7 +75,18 @@ export default [
 	component: './TH1_Bai2',
 }
 ,
-
+{
+	path: '/TH2_Bai1',
+	name: 'TH2_Bai1',
+	icon: 'OrderedListOutlined',
+	component: './TH2_Bai1',
+},
+{
+	path: '/TH2_Bai2',
+	name: 'TH2_Bai2',
+	icon: 'OrderedListOutlined',
+	component: './TH2_Bai2',
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
