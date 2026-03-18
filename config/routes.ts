@@ -87,6 +87,12 @@ export default [
 	icon: 'OrderedListOutlined',
 	component: './TH2_Bai2',
 },
+{
+	path: '/TH3',
+	name: 'TH3',
+	icon: 'OrderedListOutlined',
+	component: './TH3',
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
