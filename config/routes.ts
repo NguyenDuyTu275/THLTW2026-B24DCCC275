@@ -99,6 +99,12 @@ export default [
 	icon: 'OrderedListOutlined',
 	component: './TH4',
 },
+{
+	path: '/TH5',
+	name: 'TH5',
+	icon: 'OrderedListOutlined',
+	component: './TH5',
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
