@@ -99,7 +99,22 @@ const initialDestinations = [
     transport: 900000, 
     status: false 
   },
- 
+  {
+  id: 6,
+  name: 'Nha Trang',
+  location: 'Khánh Hòa',
+  type: 'beach',
+  rating: 4.6,
+  price: 4800000,
+  image: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Nha_Trang_beach.jpg',
+  description: 'Tắm biển trong xanh, trải nghiệm lặn ngắm san hô và vui chơi tại VinWonders Nha Trang.',
+  duration: 3,
+  food: 1300000,
+  hotel: 2000000,
+  transport: 1500000,
+  popular: true,
+  status: true
+}
 ];
 
 const monthlyData = [
@@ -123,7 +138,7 @@ const popularDestinations = [
   { name: 'Đà Nẵng', count: 312, revenue: 1560000000 },
   { name: 'Hội An', count: 256, revenue: 716800000 },
   { name: 'Sapa', count: 198, revenue: 831600000 },
-
+  { name: 'Nha Trang', count: 300, revenue: 600000000 },
 ];
 
 const categoryRevenue = [
