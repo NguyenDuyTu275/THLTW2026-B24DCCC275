@@ -105,6 +105,20 @@ export default [
 	icon: 'OrderedListOutlined',
 	component: './TH5',
 },
+{
+		path: '/TH06/user',
+		name: 'user',
+		icon: 'OrderedListOutlined',
+		component: './TH06/user',
+	},
+
+	{
+		path: '/TH06/admin',
+		name: 'admin',
+		icon: 'OrderedListOutlined',
+		component: './TH06/admin',
+	},
+	
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
