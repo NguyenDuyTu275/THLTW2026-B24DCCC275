@@ -1,4 +1,4 @@
-﻿﻿import path from "path";
+﻿import path from "path";
 
 export default [
 	{
@@ -118,7 +118,12 @@ export default [
 		icon: 'OrderedListOutlined',
 		component: './TH06/admin',
 	},
-	
+	{
+		path: '/KTGK',
+		name: 'KTGK',
+		icon: 'OrderedListOutlined',
+		component: './KTGK',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
