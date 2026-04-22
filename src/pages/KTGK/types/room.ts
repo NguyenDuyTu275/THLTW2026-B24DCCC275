@@ -3,7 +3,7 @@ export type Room = {
   maPhong: string;
   tenPhong: string;
   soCho: number;
-  loai: string;
+  loai: RoomType;
   nguoiPhuTrach: string;
 };
 export enum RoomType {

@@ -1,4 +1,4 @@
-import { Room } from '../types/room';
+import { Room, RoomType } from '../types/room';
 
 export const initialData: Room[] = [
   {
@@ -6,7 +6,7 @@ export const initialData: Room[] = [
     maPhong: 'P101',
     tenPhong: 'Phòng Lý thuyết A1',
     soCho: 60,
-    loai: 'Lý thuyết',
+    loai: RoomType.LY_THUYET,
     nguoiPhuTrach: 'Nguyễn Minh Tuấn',
   },
   {
@@ -14,7 +14,7 @@ export const initialData: Room[] = [
     maPhong: 'P102',
     tenPhong: 'Phòng Lý thuyết B1',
     soCho: 45,
-    loai: 'Lý thuyết',
+    loai: RoomType.LY_THUYET,
     nguoiPhuTrach: 'Trần Thị Hồng',
   },
   {
@@ -22,7 +22,7 @@ export const initialData: Room[] = [
     maPhong: 'P201',
     tenPhong: 'Phòng Lab CNTT 1',
     soCho: 30,
-    loai: 'Thực hành',
+    loai: RoomType.THUC_HANH,
     nguoiPhuTrach: 'Lê Quang Huy',
   },
   {
@@ -30,7 +30,7 @@ export const initialData: Room[] = [
     maPhong: 'P202',
     tenPhong: 'Phòng Lab CNTT 2',
     soCho: 25,
-    loai: 'Thực hành',
+    loai: RoomType.THUC_HANH,
     nguoiPhuTrach: 'Phạm Ngọc Anh',
   },
   {
@@ -38,7 +38,7 @@ export const initialData: Room[] = [
     maPhong: 'H301',
     tenPhong: 'Hội trường lớn',
     soCho: 150,
-    loai: 'Hội trường',
+    loai: RoomType.HOI_TRUONG,
     nguoiPhuTrach: 'Đỗ Thanh Bình',
   },
 ];
