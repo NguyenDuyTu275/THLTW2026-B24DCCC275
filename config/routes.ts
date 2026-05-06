@@ -136,6 +136,12 @@ export default [
 		icon: 'OrderedListOutlined',
 		component: './TH08',
 	},
+	{
+		path: '/TH09',
+		name: 'TH9',
+		icon: 'OrderedListOutlined',
+		component: './TH09',	
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
